@@ -11,7 +11,9 @@ import SwiftUI
 struct DerendApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView {
+                WrappedContentView()
+            }
         }
     }
 }
